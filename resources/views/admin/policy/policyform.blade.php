@@ -29,6 +29,9 @@ if($_GET['form-id'] == "acceptable-use-policy"){
 }elseif($_GET['form-id'] == "terms-and-conditions"){
 	$policy_name = "Terms and Conditions";
 	$policy_link = "terms-and-conditions-premium-policy";
+}elseif($_GET['form-id'] == "legal-document"){
+	$policy_name = "legal-document";
+	$policy_link = "legal-document-premium-policy";
 } ?>
 <div class="row">
 <div class="col-xl-12">

@@ -146,4 +146,14 @@ class policiesController extends Controller
             return view('policy.guest.terms_and_conditions_premium_policy');
         }
     }
+
+    public function legalPremium()
+    {
+        if (Auth::check()) {
+            return view('policy.auth.legal_document_premium_policy');
+        }
+        else{
+            return view('policy.guest.legal_document_premium_policy');
+        }
+    }
 }

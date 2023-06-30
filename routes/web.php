@@ -88,6 +88,7 @@ Route::get('/dmca-premium-policy','policiesController@dmcaPremium')->name('dmcaP
 Route::get('/privacy-premium-policy','policiesController@privacyPremium')->name('privacyPremium');
 Route::get('/refund-premium-policy','policiesController@refundPremium')->name('refundPremium');
 Route::get('/terms-and-conditions-premium-policy','policiesController@termsPremium')->name('termsPremium');
+Route::get('/legal-document-premium-policy','policiesController@legalPremium')->name('legalPremium');
 
 /* ------------- Policies ------------- */
 

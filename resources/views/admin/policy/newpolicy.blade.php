@@ -123,6 +123,22 @@
             </div>
         </div>
     </div>
+    <div class="col-sm-12 col-lg-6">
+        <div class="service-box">
+            <div class="service-icon">
+                <img src="{{ asset('images/terms-conditions.png')}}" alt="">
+            </div>
+            <div>
+                <div class="service-title">Legal Document</div>
+                <div class="service-details">
+                    <p>Terms and conditions (also known as terms of use and terms of service) are a set of guidelines and rules which one must agree to abide by in order to use your website or product. Terms and conditions are legally binding for both parties.</p>
+                    <div class="control actions">
+                        <a class="ybtn ybtn-header-color p-0" href="{{url('/add/policy?form-id=legal-document')}}">Legal Document</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 @endsection
